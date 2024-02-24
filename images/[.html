@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<!-- saved from url=(0164)https://psnacet.codetantra.com/secure/course.jsp?eucId=64b01d2ba1ba6406da76d4b6#/contents/64b01d2ba1ba6406da76d4bf/64b01d2ba1ba6406da76d4c0/5c7373294950690acfd25da9 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./[_files/idb-keyval.min.js.download"></script>
+<script>
+    var __rd_url = null;
+    if (window.parent !== window) {
+        try {
+            // in iframe or frame
+            console.log(window.top.location.href); // triggers error in case of a malicious clickjacking attempt
+            if (window.parent.location.pathname === '/secure/tla/jnr.jsp') {
+                // parent is jnr
+                window.parent.location.href = window.location.href;
+            } else if (window.parent.location.pathname === '/secure/take-test1.jsp') {
+                if (window.location.pathname === '/secure/tla/lvmt.jsp' && typeof window.parent["cnarm"] === 'function') {
+                    window.parent.cnarm(false, true);
+                }
+            }
+        } catch (e) {
+            try {
+                window.top.location.href = window.location.href; // let's try to reset top, fails in html5
+            } catch (e1) {
+                window.addEventListener('load', function () {
+                    document.querySelector('body').innerHTML = '<p style="font-size: 3rem; line-height: 2; margin-top: 3rem; text-align: center"><mark>This website is maliciously trying to embed CodeTantra.com inside a frame.<br/><br/>This is likely a clickjacking attack. Please notify support@codetantra.com with a complete screenshot.</mark></p>';
+                });
+            }
+        }
+    }
+    try {
+        idbKeyval.update('ctcu', function (oldVal) {
+            var newVal = {"id": "6535092fcac0ab5a43302c26", "loginId": "preethishreeb21cs@psnacet.edu.in", "name": "PREETHI SHREE B", "memberId": "921321104164", "ch": "1721", "k": {"id": "123", "pub": "N1cIGMTgc4Ide8mG2jYcwSxgdzYfDExzx4WmSoZqVQE="}};
+            return newVal;
+        });
+    } catch (ignore) {
+    }
+</script>
+
+<script src="./[_files/ipc.min.js.download"></script>
+
+<script>
+    window.ipcN && window.ipcN.send({type: 'version'}).then(function (version) {
+        if (version !== "3.0.2") {
+            var downloadLinksAndLatestVersion = {"windows": "https://github.com/ct-code/sea/releases/download/v3.0.2/CodeTantra.SEA-x64-3.0.2.exe", "linux": "https://github.com/ct-code/sea/releases/download/v3.0.2/codetantra-sea_3.0.2_amd64.deb", "mac": "https://github.com/ct-code/sea/releases/download/v3.0.2/CodeTantra.SEA-arm64-3.0.2.dmg", "win-ia32": "https://github.com/ct-code/sea/releases/download/v3.0.2/CodeTantra.SEA-ia32-3.0.2.exe", "win-x64": "https://github.com/ct-code/sea/releases/download/v3.0.2/CodeTantra.SEA-x64-3.0.2.exe", "mac-arm64": "https://github.com/ct-code/sea/releases/download/v3.0.2/CodeTantra.SEA-arm64-3.0.2.dmg", "mac-x64": "https://github.com/ct-code/sea/releases/download/v3.0.2/CodeTantra.SEA-x64-3.0.2.dmg", "win32": "https://github.com/ct-code/sea/releases/download/v3.0.2/CodeTantra.SEA-x64-3.0.2.exe", "android": "https://play.google.com/store/apps/details?id=com.codetantra.seam"};
+            downloadLinksAndLatestVersion.latestVersion = "3.0.2";
+            window.ipcN.send({type: "update", payload: downloadLinksAndLatestVersion});
+        }
+    }).catch(window.ipcW.handle);
+
+    window._ctReloadPage = function () {
+        window.location.href = window.location.href.replace(/#.*$/, '');
+    }
+</script>
+
+
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <script src="./[_files/jquery-latest.min.js.download"></script>
+    <script src="./[_files/alertify-latest.js.download"></script>
+    <script src="./[_files/select2-latest.js.download"></script>
+    <script src="./[_files/nommoc.min.js.download"></script>
+    <script src="./[_files/jquery-ui-all.js.download" type="text/javascript" charset="utf-8"></script>
+
+    <link href="./[_files/jquery-ui.css" rel="stylesheet">
+    <link href="./[_files/bootstrap-latest.css" rel="stylesheet">
+    <link href="./[_files/latest_header_styles.css" rel="stylesheet">
+    <link href="./[_files/select2-latest.css" rel="stylesheet">
+    <link href="./[_files/font-awesome.min.css" rel="stylesheet">
+    <link href="./[_files/alertify-latest.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            padding-top: 0 !important;
+            padding-bottom: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #height-placeholder {
+            height: 47px;
+        }
+
+        iframe {
+            width: 100%;
+            border: none;
+            flex: 1 1 0;
+            min-height: 0;
+        }
+
+        @media (min-width: 992px) {
+            #height-placeholder {
+                height: 54px;
+            }
+        }
+
+        c {
+            padding: 0 4px;
+            font-size: 90%;
+            color: #3F50FF;
+            white-space: nowrap;
+            background-color: #CCFCF3;
+            background-color: rgba(204, 252, 243, 0.41);
+            border-radius: 4px;
+            border: 1px solid lightblue;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<script src="./[_files/circular-preloader.js.download" type="text/javascript" charset="utf-8"></script>
+<script src="./[_files/TweenMax.min.js.download" type="text/javascript" charset="utf-8"></script>
+
+
+<script src="./[_files/lg.min.js.download"></script>
+
+<script>
+    var supportEmail = 'support@codetantra.com';
+    var supportPhone = '["+91 630 500 7479", "+91 630 500 8997", "+91 799 541 7777"]';
+    supportPhone = JSON.parse(supportPhone);
+    var _ct_cookieId = '6535092fcac0ab5a43302c26';
+    var _ct_lid = 'preethishreeb21cs@psnacet.edu.in';
+    var _ct_uname = "PREETHI" ;
+    var _ct_groups = [{"6535092ecac0ab5a43302b37": "2021-2025-CSE-C"}];
+    var forceLocation = false;
+    var isCurrentRoleMember = true;
+    var _ct_chid = '1721';
+    var _zl_config = {}
+</script>
+
+
+<style>
+    li > a {
+        cursor: pointer;
+    }
+    .border-style {
+        line-height: 30px;
+        border: 2px solid gray;
+        padding: 2px;
+        border-radius: 4px;
+    }
+    .alertify-notifier .ajs-message {
+        width:450px;
+        color: white;
+        font-weight: bold;
+    }
+    .alertify-notifier.ajs-right .ajs-message.ajs-visible {
+        right: 450px;
+        top: 50px;
+        border-radius: 6px;
+    }
+    .alertify-notifier .ajs-message.ajs-error {
+        background: red;
+    }
+    .alertify-notifier .ajs-message.ajs-success {
+        background: rgba(92,184,17,.9);
+    }
+    .alertify-notifier .ajs-message.ajs-warning {
+        background: rgb(248, 165, 0);
+    }
+    #supportDialogBody {
+        background-color: cornsilk;
+    }
+    .select2-results__option[aria-selected="true"]{
+        display: none;
+    }
+</style>
+<script>
+    $(function () {
+        'use strict';
+        $('[data-toggle="offcanvas"]').on('click', function () {
+            $('.offcanvas-collapse').toggleClass('open')
+        })
+    })
+</script>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark d-block d-print-none p-1 p-md-2" id="cssmenu">
+    <button class="navbar-toggler py-0 border-0 pl-0" type="button" data-toggle="offcanvas" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <span class="navbar-brand d-lg-none d-print-none"><img src="./[_files/psnacet" alt="CodeTantra" style="max-width: 100%; height: 30px;"></span>
+    <span class="d-none text-right bg-transparent"><img src="./[_files/logo-new.png" alt="CodeTantra" style="max-width: 100%;"></span>
+    <div class="navbar-collapse offcanvas-collapse" id="navbarSupportedContent">
+            
+                
+<ul class="navbar-nav mr-auto">
+    <li class="d-none d-lg-block">
+        <span class="p-1 d-block">
+             <img src="./[_files/psnacet" style="height: 30px;" alt="Home">
+        </span>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="https://psnacet.codetantra.com/secure/home.jsp" style="white-space: nowrap"><i class="fa fa-home"></i><span> Home</span> </a></li>
+    
+    
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="https://psnacet.codetantra.com/secure/course.jsp?eucId=64b01d2ba1ba6406da76d4b6#" role="menu" aria-haspopup="true" title="Learn anywhere" aria-label="Learn anywhere menu"><span>Learn Anywhere</span></a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://psnacet.codetantra.com/secure/tla/m.jsp" role="menuitem" title="View meetings" aria-label="Click to view meetings">View Meetings</a></li>
+        </ul>
+    </li>
+    
+    
+</ul>
+
+            
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="https://psnacet.codetantra.com/secure/course.jsp?eucId=64b01d2ba1ba6406da76d4b6#" data-toggle="dropdown"> preethishreeb21cs@psnacet.edu.in </a>
+                    <ul class="dropdown-menu" style="padding-left: 0.75rem">
+                        
+                        <li><a class="dropdown-item" href="https://psnacet.codetantra.com/secure/member-profile.jsp"><span>Update Profile</span> </a></li>
+                        
+                        <hr style="margin: 0">
+                        <li><a class="dropdown-item" href="https://psnacet.codetantra.com/secure/change-password.jsp"><span>Change Password</span> </a></li>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item"><a class="nav-link" id="contactHelp" href="https://psnacet.codetantra.com/secure/course.jsp?eucId=64b01d2ba1ba6406da76d4b6#" onclick="openSupportDialog()" role="contentinfo"><span>Support</span> </a></li>
+                <li class="nav-item"><a class="btn btn-sm btn-danger" id="logoutBtn" style="color: white; font-weight: bold; margin-top: 0.25rem; white-space: nowrap " role="button" aria-label="Logout" title="Click to logout"> Logout <i class="fa fa-sign-out" aria-hidden="true"></i> </a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+</nav>
+<script>
+    $(document).attr('cssBodyWidth', 0);
+
+    
+    $(document).ready(function() {
+        initiateSupportPanel(supportEmail, supportPhone, "");
+        if (forceLocation && !window.lgOverridden) {
+            $(".img-info").html("<b>Note</b> : You can click on the image to view a larger version.");
+            geoLocationCoordinates();
+        }
+
+        setTimeout(function(){
+            if (typeof hideTafPopup != 'undefined' && hideTafPopup) {
+                $('#tafPopupImg').addClass('hide');
+            } else {
+                $('#tafPopupImg').addClass('in');
+            }
+        }, 1000);
+        var $cssmenu = $('#cssmenu');
+        
+
+        $("#logoutBtn").click(function() {
+            logoutClicked();
+        });
+
+        $(".changeRole").click(function() {
+            changeRoleClicked(this);
+        });
+
+    });
+
+    if (window['alertify']) {
+        alertify.set('notifier', 'position', 'top-right');
+    }
+</script><div class="alertify-notifier ajs-top ajs-right"></div>
+
+<div id="pointsModalDialog" class="modal fade" style="z-index: 1060">
+    <div class="modal-dialog">
+        <div class="modal-content hintsDialogContent1">
+            <div class="modal-header hintsDialogHeader">
+                <h5 class="hintsDialogTitle modal-title"><i class="fa fa-cubes" aria-hidden="true"></i> Award Points</h5>
+                <button type="button" class="close" onclick="closePointsDialog()" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body hintsDialogBody" id="hintsDialogBody">
+
+            </div>
+
+            <div class="modal-footer hintsDialogFooter">
+                <a type="button" class="btn btn-warning btn-sm" style="text-decoration:none !important;" onclick="closePointsDialog()">Close</a>
+
+                <a type="button" class="btn btn-success btn-sm pull-left" style="text-decoration:none !important;" target="_blank" href="https://psnacet.codetantra.com/secure/taf.jsp"><i class="fa fa-users" aria-hidden="true"></i> Invite Friends</a>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+
+</div>
+
+<div id="supportModalDialog" class="modal fade p-0" style="z-index: 1060">
+    <div class="modal-content border-warning">
+        <div class="modal-header card-heading bg-warning" style="padding-bottom: 0;">
+            <span class="w-100">
+                <h6 class="modal-title supportDialogTitle1" id="contactLabel"><b>Contact Support</b></h6>
+            </span>
+        </div>
+        <div class="modal-body supportDialogBody text-center" id="supportDialogBody">
+        <div>
+                <h6 class="badge badge-info">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> Email:
+                </h6>
+                <h6 class="text-success font-weight-bold" style="font-size: 15px">support@codetantra.com</h6></div> 					<h6 class="badge badge-info">
+                <i class="fa fa-phone" aria-hidden="true"></i> Call Us:
+            </h6>
+            <div> 	 <h6 class="text-success font-weight-bold"><span><i class="fa fa-phone-square" aria-hidden="true"></i> +91 630 500 7479</span><br><span><i class="fa fa-phone-square" aria-hidden="true"></i> +91 630 500 8997</span><br><span><i class="fa fa-phone-square" aria-hidden="true"></i> +91 799 541 7777</span><br></h6>
+            </div></div>
+    </div>
+</div>
+
+<div class="modal fade" id="locationDenyDialog" style="margin-top: 8%">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="padding: 10px;">
+                <h4 class="modal-title">Instruction to Unblock Access to Location.</h4>
+            </div>
+            <div class="modal-body" style="background: #fcf8e3;">
+                <div>
+                    <ul>
+                        <li><h4>The portal requires permission  to record the location from which it is being accessed, to minimize your account misuse.</h4></li>
+                        <li><h4>Currently the access to location in the browser is <span class="text-danger"><b>blocked</b></span>.</h4></li>
+                        <li><h4>Follow the instruction in the below <a href="https://psnacet.codetantra.com/geolocation-settings-for-C-MF-C.html" target="_blank">
+                            link</a> to unblock access to location details and click on
+                            <span style="color: darkgreen"><b>refresh</b></span> button.</h4></li>
+                        <li><h4>If you already followed the instructions to unblock and it is still showing this dialog, this may be due to occasional network connectivity problems. Please refresh the page in that case.</h4></li>
+                    </ul>
+
+                    <br>
+                    <div class="text-center">
+                        <div>
+                            <a href="https://psnacet.codetantra.com/geolocation-settings-for-C-MF-C.html" target="_blank"><u><h4><b>Link to Unblock</b></h4></u></a>
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="text-center">
+
+                        <a id="close" onclick="_ctReloadPage()" class="btn btn-success btn-xs" data-toggle="modal" style="padding: 0 25px 0 25px;">
+                            <h5>Refresh</h5>
+                        </a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="locationPromptDialog" style="margin-top: 8%">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="padding: 10px;">
+                <h4 class="modal-title" id="locationFetchTitle">Fetching Location</h4>
+            </div>
+            <div class="modal-body" style="background: #fcf8e3;">
+                <div>
+                    <ul>
+                        <li><h4>The portal requires permission to record the location from which it is being accessed, to minimize your account misuse.</h4></li>
+                        <li id="changeAllowBtnResToBrowser"><h4>Click on <span class="remember-text"></span>
+                            <span><nobr><b class="allow-access-text border-style"></b></nobr></span>
+                            button to access the location, and click on <span style="color: darkgreen"><b>refresh</b></span> button.</h4>
+                        </li>
+                        <div id="showImage"></div><br><br>
+                        <div><h4 class="img-info"></h4></div>
+                    </ul>
+                </div>
+                <br>
+                <div class="text-center">
+
+                    <a id="close" onclick="_ctReloadPage()" class="btn btn-success btn-xs" data-toggle="modal" style="padding: 0 25px 0 25px;">
+                        <h5>Refresh</h5>
+                    </a>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="height-placeholder"></div>
+<iframe id="course-iframe" src="./[_files/lms-course.html">
+</iframe>
+<div id="javaDocBrowserDiv"></div>
+<script>
+    const iframe = document.getElementById("course-iframe");
+    iframe.src = "/js/solidplasma/lms-course.html?eucId=64b01d2ba1ba6406da76d4b6&t=term&eh=" + encodeURIComponent(window.location.hash.slice(1));
+
+    iframe.addEventListener("load", () => {
+        iframe.contentWindow.addEventListener("hashchange", (event) => {
+            const url = new URL(event.newURL);
+            window.location.hash = url.hash.replace(`/eucs/64b01d2ba1ba6406da76d4b6`, '');
+        });
+    });
+
+    function opendialog(className, url, width, height) {
+        if (!width) {
+            width = 600;
+        } else {
+            width = $(window).width() * width;
+        }
+        if (!height) {
+            height = 400;
+        } else {
+            height = $(window).height() * height;
+        }
+
+        if (url.indexOf("javase") > -1 || url.indexOf("seleniumhq") > -1) {
+            const left = (screen.width / 2) - (width / 2);
+            const top = (screen.height / 2) - (height / 2);
+            const popupWindow = window.open(url,
+                className,
+                'height=' + height + ',width=' + width + ',left=' + left + ',top=' + top + ',resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+            popupWindow.focus();
+        } else {
+            const $dialog = $('#javaDocBrowserDiv').html(
+                '<iframe id="javaDocIFrame" style="border: 0; " src="' + url
+                + '" width="100%" height="100%"></iframe>').dialog({
+                title: className,
+                autoOpen: false,
+                dialogClass: 'dialog_fixed ui-widget-header jqueryUIPopupDialog',
+                modal: false,
+                height: height,
+                minWidth: width,
+                minHeight: height,
+                draggable: true
+            });
+            $dialog.dialog('open');
+            $dialog.closest('.ui-dialog').css("z-index", "1043");
+        }
+    }
+</script>
+
+</body></html>
