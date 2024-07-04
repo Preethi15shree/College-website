@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College website</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>     
+        <div class="header-content">
+            <div class="logo">
+                <img src="./images/psnalogo.png" alt="hiii">
+            </div>
+            <ul class="nav-links">
+                <li><a href ="index.html">Home</a></li>
+                <li><a href ="aboutus.html">About</a></li>
+                <li><a href ="courses.html">Courses</a></li>
+                <li><a href ="contactus.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars">=</i>            
+            </div>
+           
+        </div>
+        <div class="text-center">
+            <p style="text-align: center;">Welcome to</p>
+            <h1>PSNA COLLEGE OF ENGINEERING AND TECHNOLOGY, DINDIGUL</h1>
+            <a class="btn" href="#">Register Here</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="map mt mb">
+            <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.0651888262173!2d77.90062919999995!3d10.416397399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9ffb95456ce7f%3A0x14d566dfc1364080!2sPSNA%20College%20Of%20Engineering%20And%20Technology!5e0!3m2!1sen!2sin!4v1705137817354!5m2!1sen!2sin" width="100%" height="300vh" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="form mt mb content">
+            <h2 class="mb">CONTACT US</h2>
+            <form action="form.php" method="post">
+                <input type="text" placeholder="First Name" name="fname">
+                <input type="text" placeholder="last Name" name="lname">
+                <input type="mail" placeholder="Your Email" name="email">
+                <textarea name="" rows="10" placeholder="Your Message" name="message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content ">
+            <div class="footer-top flex-design">
+                <div class="footer-top-container content">
+                    <div class="footer-college">
+                        <h3>PSNA College of Engineering and Technology</h3>
+                        <p>PSNA College of Engineering and Technology (PSNACET) is a private engineering college in Dindigul, Tamil Nadu. It was established in 1984 and is affiliated with Anna University. The college offers undergraduate, postgraduate, and doctoral programs in engineering, technology, computer applications, and management studies</p>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; psna</p>
+            </div>
+        </div>
+    </footer>
+    <script src="App.js"></script>
+    </body>
+</html>
