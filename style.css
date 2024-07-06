@@ -34,7 +34,7 @@ img{
 
 header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.37),black),url(images/psna.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.37),black),url(./images/psna.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
